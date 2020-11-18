@@ -69,7 +69,7 @@ const FrameUnpacker = (() => {
             frames.push(imageBitmap);
         }
 
-        log(`Average time per frame: ${average(frameExtractTimings)}ms`);
+        log(`Average extraction time per frame: ${average(frameExtractTimings)}ms`);
 
         return frames;
     };
