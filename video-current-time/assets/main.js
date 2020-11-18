@@ -1,7 +1,9 @@
 (async () => {
+    startProgress();
+
     log('Loading. Please wait...');
 
-    const observer = await Scrubber.create({
+    const observer = await CanvasFrameScrubber.create({
         video: document.getElementById('video-1')
     });
 
@@ -9,4 +11,6 @@
     observable.subscribe(observer);
 
     log('Ready! Scroll to scrub.');
+
+    stopProgress();
 })();
