@@ -1,10 +1,9 @@
 # experiment-video-scrub
 
 
-Experiments with video scrubbing on the web.
+A collection of proof-of-concepts and prototypes of various mechanisms to enable video scrubbing based experiences on the web with input signals such as the scrolling of the page.
 
-We try out two basic mechanisms of downloading a video on the page on a browser and then attempting
-to scrub it with input signals such as the scrolling of the page in this example.
+## Approaches & Demos
 
 ## Video Source Attribution
 
@@ -123,6 +122,6 @@ While playing around with these experiments, I decided to quickly hack up togeth
 extract tool** that can take any video that is uploaded and extract out frames from it which which
 can be conveniently downloaded as a bunch of JPEG images within a single ZIP file.
 
-It's also a bit configurable, such as how many frames to extract or at what frame rate.
+It's also a bit configurable, such as hsow many frames to extract or at what frame rate.
 
-Check this out here: https://wgalyen.github.io/experiment-video-scrubbing/frame-extract-tool/
+Check this out here: https://wgalyen.github.io/experiment-video-scrubbing//frame-extract-tool/
