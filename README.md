@@ -119,9 +119,9 @@ them back and so on (eg. a in-browser video frame extractor and editor).
 ## Bonus
 
 While playing around with these experiments, I decided to quickly hack up together a **video frame
-extract tool** that can take any video that is uploaded and extract out frames from it which which
+extract tool** that can take any video that is uploaded and extract out frames from it which
 can be conveniently downloaded as a bunch of JPEG images within a single ZIP file.
 
-It's also a bit configurable, such as hsow many frames to extract or at what frame rate.
+It's also a bit configurable, such as how many frames to extract or at what frame rate.
 
-Check this out here: https://wgalyen.github.io/experiment-video-scrubbing//frame-extract-tool/
+Check this out here: https://wgalyen.github.io/experiment-video-scrubbing/frame-extract-tool/
